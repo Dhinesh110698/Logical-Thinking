@@ -4,7 +4,8 @@ public class PrintPrimenumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	/*	int i, number = 1, count; 
+
+		int i, number = 1, count; 
 		while(number <= 100)
 		{
 			count = 0;
@@ -24,23 +25,30 @@ public class PrintPrimenumber {
 		    }
 		    number++;
 
-	}*/
-int no=99;
-if((no!=2)&&no%2==0)
+	}
+/*int no=97,div=3;
+boolean check =true;
+if (no%2!=0)
 {
-	System.out.println("not prime");
+	while (div<no)
+	{
+		if(no%div==0)
+		{
+			System.out.println("not prime");
+			check=false;
+			break;
+		}
+		div=div+2;
+		}
+	if(check==true)
+	{
+		System.out.println("prime");
+	}
 }
 else
 {
-	int count=3;
-	while(count<no)
-	{
-		if(no%count==0)
-		{
-			System.out.println(" non prime");
-		}
-		count=count+1;
-	}
-}
+	System.out.println("not prime");
+		
+}*/
 }
 }
