@@ -4,8 +4,8 @@ public class PrintReverseGivenNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int no=121;
-		int no1=121;
+		int no=254;
+		int no1=254;
 		int noOfDigits=0;
 		int rem=0;
 		int rev=0;
